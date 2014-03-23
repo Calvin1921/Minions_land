@@ -39,6 +39,20 @@
        </widget>
       </item>
       <item>
+       <widget class="QPushButton" name="assignment5Btn">
+        <property name="text">
+         <string>Assignment5</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="finalProjectBtn">
+        <property name="text">
+         <string>FinalProject</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <spacer name="verticalSpacer">
         <property name="orientation">
          <enum>Qt::Vertical</enum>

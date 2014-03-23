@@ -25,7 +25,8 @@ class MayaPyHomeWidget(PyGlassWidget):
         self.assignment1Btn.clicked.connect(self._handleAssignment1)
         self.assignment2Btn.clicked.connect(self._handleAssignment2)
         self.assignment4Btn.clicked.connect(self._handleAssignment4)
-
+        self.assignment5Btn.clicked.connect(self._handleAssignment5)
+        self.finalProjectBtn.clicked.connect(self._finalproject)
         self._statusBox, statusLayout = self._createElementWidget(self, QtGui.QVBoxLayout, True)
         statusLayout.addStretch()
 
@@ -55,3 +56,9 @@ class MayaPyHomeWidget(PyGlassWidget):
 #___________________________________________________________________________________________________ _handleAssignment2
     def _handleAssignment4(self):
         self.mainWindow.setActiveWidget('assignment4')
+#___________________________________________________________________________________________________ _handleAssignment2
+    def _handleAssignment5(self):
+        self.mainWindow.setActiveWidget('assignment5')
+#___________________________________________________________________________________________________ _handleAssignment2
+    def _finalproject(self):
+        self.mainWindow.setActiveWidget('FinalProject')
